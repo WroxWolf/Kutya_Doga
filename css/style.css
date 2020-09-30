@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+header.ShibaInu{
+    background: url("../images/Shiba_inu_header.jpeg");
+    font-size: 4em;
+    font-weight: 700px;
+    padding: 45px 45px;
+    height: 364px;
+    color: whitesmoke;
+    text-shadow: 0 0 20px rgba(255, 191, 0, 0.8)
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}

@@ -5,6 +5,7 @@ header.ShibaInu{
     background: url("../images/Shiba_inu_header.jpeg");
     font-size: 4em;
     font-weight: 700px;
+    font-family: 'Bangers', cursive;
     padding: 45px 45px;
     height: 364px;
     color: whitesmoke;
@@ -13,4 +14,70 @@ header.ShibaInu{
 .wrapper{
     width: 1200px;
     margin: 0 auto;
+}
+nav{
+    background: rgb(255, 150, 0);
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav>ul>li{
+    float: left;
+}
+nav ul a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-family: 'Bangers', cursive;
+    display: block;
+    text-shadow: 0 10px 5px rgba(0, 0, 0, 0.8);
+}
+nav a:hover{
+    font-size: 1.2em;
+}
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+main{
+    padding: 20px;
+
+}
+main h2,p{
+    font-family: 'Bangers', cursive;
+}
+.img-left{
+    float: left;
+    box-shadow: 5px 5px 5px grey;
+    margin-right: 15px;
+}
+.img-right{
+    float: right;
+    box-shadow: 5px 5px 5px grey;
+    margin-left: 15px;
+}
+.left-link,
+.right-link {
+position: fixed;
+top: 43vh;
+font-size: 5em;
+}
+.left-link a,
+.right-link a {
+text-decoration: none;
+padding: 20px;
+color: black;
+}
+
+.left-link {
+left: 0;
+}
+
+.right-link {
+right: 0
 }

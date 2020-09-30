@@ -21,6 +21,16 @@ header.Amerika_Pitbull{
     color: burlywood;
     text-shadow: 8px 5px 25px rgba(0, 0, 0, 0.8)
 }
+header.Főoldal{
+    background: url("../images/head_img.jpeg");
+    font-size: 6em;
+    font-weight: 700px;
+    font-family: 'Bangers', cursive;
+    padding: 95px 45px;
+    height: 364px;
+    color: whitesmoke;
+    text-shadow: 0 0 20px rgba(255, 191, 0, 0.8)
+}
 .wrapper{
     width: 1200px;
     margin: 0 auto;
@@ -90,4 +100,17 @@ left: 0;
 
 .right-link {
 right: 0
+}
+main.oldalak{
+    text-align: center;
+    
+}
+main img{
+    width: 402px;
+    height: 650px;
+    padding: 20px;
+}
+main img:hover{
+    width: 450px;
+    height: 700px;
 }
